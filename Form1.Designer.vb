@@ -23,10 +23,13 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button31 = New System.Windows.Forms.Button()
+        Me.Button32 = New System.Windows.Forms.Button()
+        Me.Button33 = New System.Windows.Forms.Button()
+        Me.Button34 = New System.Windows.Forms.Button()
+        Me.Button35 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
         Me.Button27 = New System.Windows.Forms.Button()
@@ -56,15 +59,12 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.FlowLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -76,39 +76,6 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(444, 463)
         Me.Panel1.TabIndex = 0
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.Controls.Add(Me.Label2)
-        Me.FlowLayoutPanel1.Controls.Add(Me.Label3)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 10)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(433, 95)
-        Me.FlowLayoutPanel1.TabIndex = 0
-        '
-        'Label2
-        '
-        Me.Label2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.MediumTurquoise
-        Me.Label2.Location = New System.Drawing.Point(12, 5)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(410, 35)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Label2"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label3
-        '
-        Me.Label3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.LightSeaGreen
-        Me.Label3.Location = New System.Drawing.Point(12, 45)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(410, 40)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Label3"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel4
         '
@@ -151,6 +118,84 @@ Partial Class Form1
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(433, 343)
         Me.Panel4.TabIndex = 2
+        '
+        'Button19
+        '
+        Me.Button19.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button19.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button19.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button19.Location = New System.Drawing.Point(364, 9)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(66, 50)
+        Me.Button19.TabIndex = 35
+        Me.Button19.Text = "e"
+        Me.Button19.UseVisualStyleBackColor = False
+        '
+        'Button31
+        '
+        Me.Button31.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button31.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button31.Location = New System.Drawing.Point(292, 9)
+        Me.Button31.Name = "Button31"
+        Me.Button31.Size = New System.Drawing.Size(66, 50)
+        Me.Button31.TabIndex = 34
+        Me.Button31.Text = "π"
+        Me.Button31.UseVisualStyleBackColor = False
+        '
+        'Button32
+        '
+        Me.Button32.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button32.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button32.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button32.Location = New System.Drawing.Point(220, 9)
+        Me.Button32.Name = "Button32"
+        Me.Button32.Size = New System.Drawing.Size(66, 50)
+        Me.Button32.TabIndex = 33
+        Me.Button32.Text = "mr"
+        Me.Button32.UseVisualStyleBackColor = False
+        '
+        'Button33
+        '
+        Me.Button33.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button33.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button33.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button33.Location = New System.Drawing.Point(148, 9)
+        Me.Button33.Name = "Button33"
+        Me.Button33.Size = New System.Drawing.Size(66, 50)
+        Me.Button33.TabIndex = 32
+        Me.Button33.Text = "m-"
+        Me.Button33.UseVisualStyleBackColor = False
+        '
+        'Button34
+        '
+        Me.Button34.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button34.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button34.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button34.Location = New System.Drawing.Point(76, 9)
+        Me.Button34.Name = "Button34"
+        Me.Button34.Size = New System.Drawing.Size(66, 50)
+        Me.Button34.TabIndex = 31
+        Me.Button34.Text = "m+"
+        Me.Button34.UseVisualStyleBackColor = False
+        '
+        'Button35
+        '
+        Me.Button35.BackColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button35.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button35.Location = New System.Drawing.Point(4, 9)
+        Me.Button35.Name = "Button35"
+        Me.Button35.Size = New System.Drawing.Size(66, 50)
+        Me.Button35.TabIndex = 30
+        Me.Button35.Text = "mc"
+        Me.Button35.UseVisualStyleBackColor = False
         '
         'Button25
         '
@@ -532,83 +577,38 @@ Partial Class Form1
         Me.Button1.Text = "log"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button19
+        'FlowLayoutPanel1
         '
-        Me.Button19.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button19.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(364, 9)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(66, 50)
-        Me.Button19.TabIndex = 35
-        Me.Button19.Text = "e"
-        Me.Button19.UseVisualStyleBackColor = False
+        Me.FlowLayoutPanel1.Controls.Add(Me.Label2)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Label3)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 10)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(433, 95)
+        Me.FlowLayoutPanel1.TabIndex = 0
         '
-        'Button31
+        'Label2
         '
-        Me.Button31.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button31.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button31.Location = New System.Drawing.Point(292, 9)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(66, 50)
-        Me.Button31.TabIndex = 34
-        Me.Button31.Text = "π"
-        Me.Button31.UseVisualStyleBackColor = False
+        Me.Label2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.MediumTurquoise
+        Me.Label2.Location = New System.Drawing.Point(12, 5)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(410, 35)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Label2"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Button32
+        'Label3
         '
-        Me.Button32.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button32.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button32.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.Location = New System.Drawing.Point(220, 9)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(66, 50)
-        Me.Button32.TabIndex = 33
-        Me.Button32.Text = "mr"
-        Me.Button32.UseVisualStyleBackColor = False
-        '
-        'Button33
-        '
-        Me.Button33.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button33.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button33.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button33.Location = New System.Drawing.Point(148, 9)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(66, 50)
-        Me.Button33.TabIndex = 32
-        Me.Button33.Text = "m-"
-        Me.Button33.UseVisualStyleBackColor = False
-        '
-        'Button34
-        '
-        Me.Button34.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button34.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button34.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button34.Location = New System.Drawing.Point(76, 9)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(66, 50)
-        Me.Button34.TabIndex = 31
-        Me.Button34.Text = "m+"
-        Me.Button34.UseVisualStyleBackColor = False
-        '
-        'Button35
-        '
-        Me.Button35.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button35.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.Location = New System.Drawing.Point(4, 9)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(66, 50)
-        Me.Button35.TabIndex = 30
-        Me.Button35.Text = "mc"
-        Me.Button35.UseVisualStyleBackColor = False
+        Me.Label3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.LightSeaGreen
+        Me.Label3.Location = New System.Drawing.Point(12, 45)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(410, 40)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "0"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Form1
         '
@@ -619,8 +619,8 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
-        Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
+        Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

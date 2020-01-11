@@ -42,4 +42,41 @@
     Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
 
     End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "1"
+
+        Else
+            Label3.Text = Label3.Text & "1"
+        End If
+
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "2"
+
+        Else
+            Label3.Text = Label3.Text & "2"
+        End If
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "3"
+
+        Else
+            Label3.Text = Label3.Text & "3"
+        End If
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "4"
+
+        Else
+            Label3.Text = Label3.Text & "4"
+        End If
+    End Sub
 End Class
