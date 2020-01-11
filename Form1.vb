@@ -79,4 +79,49 @@
             Label3.Text = Label3.Text & "4"
         End If
     End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "5"
+
+        Else
+            Label3.Text = Label3.Text & "5"
+        End If
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "6"
+
+        Else
+            Label3.Text = Label3.Text & "6"
+        End If
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "7"
+
+        Else
+            Label3.Text = Label3.Text & "7"
+        End If
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "8"
+
+        Else
+            Label3.Text = Label3.Text & "8"
+        End If
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        If (Label3.Text = "0") Then
+            Label3.Text = "9"
+
+        Else
+            Label3.Text = Label3.Text & "9"
+        End If
+    End Sub
 End Class

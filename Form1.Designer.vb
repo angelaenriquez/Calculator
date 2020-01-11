@@ -60,7 +60,6 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
@@ -579,33 +578,20 @@ Partial Class Form1
         '
         'FlowLayoutPanel1
         '
-        Me.FlowLayoutPanel1.Controls.Add(Me.Label2)
         Me.FlowLayoutPanel1.Controls.Add(Me.Label3)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 10)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(433, 95)
         Me.FlowLayoutPanel1.TabIndex = 0
         '
-        'Label2
-        '
-        Me.Label2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.MediumTurquoise
-        Me.Label2.Location = New System.Drawing.Point(12, 5)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(410, 35)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Label2"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'Label3
         '
         Me.Label3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.LightSeaGreen
-        Me.Label3.Location = New System.Drawing.Point(12, 45)
+        Me.Label3.Location = New System.Drawing.Point(12, 5)
         Me.Label3.Margin = New System.Windows.Forms.Padding(12, 5, 3, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(410, 40)
+        Me.Label3.Size = New System.Drawing.Size(410, 44)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "0"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -628,7 +614,6 @@ Partial Class Form1
     Friend WithEvents Panel1 As Panel
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Button25 As Button
     Friend WithEvents Button26 As Button
